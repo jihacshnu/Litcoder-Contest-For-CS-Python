@@ -27,7 +27,7 @@ class TimeTravelersArchive:
             else:
                 right = mid - 1
 
-        # Check if there is any value with timestamp less than or equal to the given timestamp
+      
         if right >= 0:
             return values[right][1]
         else:
